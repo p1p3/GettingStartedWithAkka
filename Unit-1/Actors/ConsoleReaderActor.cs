@@ -1,5 +1,6 @@
 ﻿using System;
 using Akka.Actor;
+using Unit_1.Model;
 
 namespace Unit_1.Actors
 {

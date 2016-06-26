@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Akka.Actor;
-using Unit_1.Actors;
+using Unit_1.Model;
 
-namespace Unit_1.Model
+namespace Unit_1.Actors
 {
     internal class ConsoleWriterActor : TypedActor, IHandle<ConsoleInput>
     {
